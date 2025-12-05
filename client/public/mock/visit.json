@@ -1,0 +1,24 @@
+[
+  {
+    "id": "V1",
+    "listingId": "L1",
+    "userId": "U1",
+    "ownerId": "O1",
+    "requestedAt": "2025-11-23T09:00:00Z",
+    "visitDate": "2025-11-26T15:00:00Z",
+    "durationMinutes": 30,
+    "status": "pending",
+    "notes": "I will bring my father"
+  },
+  {
+    "id": "V2",
+    "listingId": "L2",
+    "userId": "U2",
+    "ownerId": "O2",
+    "requestedAt": "2025-11-22T10:30:00Z",
+    "visitDate": "2025-11-25T11:00:00Z",
+    "durationMinutes": 20,
+    "status": "approved",
+    "notes": "One visitor"
+  }
+]

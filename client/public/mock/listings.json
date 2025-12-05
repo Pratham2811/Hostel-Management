@@ -1,0 +1,45 @@
+[
+  {
+    "id": "L1",
+    "title": "PG Near Pune University",
+    "ownerId": "O1",
+    "address": {
+      "line1": "123 College Road",
+      "city": "Pune",
+      "pincode": "411007",
+      "geo": { "lat": 18.5217, "lng": 73.8566 }
+    },
+    "photos": [
+      "/mock/images/pg1-1.jpg",
+      "/mock/images/pg1-2.jpg"
+    ],
+    "type": "single",
+    "capacity": 20,
+    "availableBeds": 6,
+    "monthlyRent": 6500,
+    "amenities": ["wifi", "laundry", "meals"],
+    "status": "published",
+    "createdAt": "2025-11-01T08:00:00Z"
+  },
+  {
+    "id": "L2",
+    "title": "Budget Hostel in Koregaon Park",
+    "ownerId": "O2",
+    "address": {
+      "line1": "45 Lane, Koregaon Park",
+      "city": "Pune",
+      "pincode": "411001",
+      "geo": { "lat": 18.5256, "lng": 73.8569 }
+    },
+    "photos": [
+      "/mock/images/pg2-1.jpg"
+    ],
+    "type": "dorm",
+    "capacity": 40,
+    "availableBeds": 12,
+    "monthlyRent": 3500,
+    "amenities": ["wifi", "commonRoom"],
+    "status": "published",
+    "createdAt": "2025-10-20T12:00:00Z"
+  }
+]
