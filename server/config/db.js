@@ -1,7 +1,9 @@
 import {MongoClient} from "mongodb"
 import dotenv from "dotenv"
+import mongoose from "mongoose"
 dotenv.config()
 const client=new MongoClient(process.env.MONGO_URI);
+const clientObj=await mongoose.connect(process.env.MONGO_URI);
 
 export async function connectDB(){
     
