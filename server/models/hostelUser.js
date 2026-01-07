@@ -1,7 +1,11 @@
-import { model,Schema } from "mongoose";
+import mongoose, { model,Schema } from "mongoose";
 
-const hostelOwnerSchema=new Schema({
-  
+const hostelUserSchema=new Schema({
+//   username:{
+//         type:String,
+//         required:true,
+//         default:
+//   },
     fullname:{
         type:String,
         required:[true,"Fullname is required.Enter your Fullname"],
@@ -21,7 +25,7 @@ const hostelOwnerSchema=new Schema({
         type:String,
         required:[true,"Password is required.Enter your Password"],
         trim:true,
-        min:4
+        min:8
     },
     phone:{
         type:String,
@@ -50,8 +54,15 @@ const hostelOwnerSchema=new Schema({
         default:"ACTIVE"
     },
     deletedAt:{
-        type:String,
+        type:Date,
         default:null
+    },
+    hostelId:{
+        type: Schema.Types.ObjectId,
+         
+       
+        trim:true,
+       default:null,
     }
    
   
@@ -64,5 +75,5 @@ const hostelOwnerSchema=new Schema({
  }
 )
 
-const HostelOwner=model("HostelOwner",hostelOwnerSchema);
-export default HostelOwner;
+const hostelUser=model("hostelUser",hostelUserSchema);
+export default hostelUser;
