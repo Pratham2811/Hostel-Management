@@ -3,7 +3,7 @@ import { createHostelOwner } from "../controllers/hostelOwnerController.js"
 
 const router=express.Router()
 
-router.post("/",createHostelOwner)
+router.post("/register",createHostelOwner)
 
 
 export default router
